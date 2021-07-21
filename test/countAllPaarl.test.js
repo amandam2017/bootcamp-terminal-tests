@@ -1,3 +1,6 @@
+let assert = require("assert");
+let countAllPaarl = require("../countAllPaarl");
+
 describe('this test countAllPaarl function,', function(){
     it('should find all carReg from paarl, counts them', function(){
         assert.equal(2, countAllPaarl( "CA 123, CY 123, CK 3122, CJ 23232, CJ 3232"));

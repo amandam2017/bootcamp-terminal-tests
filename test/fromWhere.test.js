@@ -1,3 +1,6 @@
+let assert = require("assert");
+let fromWhere = require("../fromWhere");
+
 describe('this test fromWhere function', function() {
     it('should return bellville for CY', function() {
         var reg = fromWhere('CY 182736');

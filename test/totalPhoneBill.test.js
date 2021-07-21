@@ -1,3 +1,6 @@
+let assert = require("assert");
+let totalPhoneBill = require("../totalPhoneBill");
+
 var call = 2.75;
 var sms = 0.65;
 

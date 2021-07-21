@@ -1,3 +1,6 @@
+let assert = require("assert");
+let regCheck = require("../regCheck");
+
 describe('this test regCheck function,', function(){
     it('should check and return true if the is a car from GP', function(){
         //var isGP = regCheck('DV 23 NB GP', 'GP');

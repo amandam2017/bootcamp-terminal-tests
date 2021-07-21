@@ -1,3 +1,6 @@
+let assert = require("assert");
+let mostProfitableDepartment = require("../mostProfitableDepartment");
+
 describe('this test mostProfitableDepartment function,', function(){
     var salesData = [
         {department: 'hardware', sales: 4500, day: 'Monday'},
@@ -22,10 +25,6 @@ describe('this test mostProfitableDepartment function,', function(){
         assert.equal('outdoor', mostProfitableDepartment(salesData));
     });
     
-    it('should return Thursday as the most day with most sales form the salesData', function(){
-        
-        assert.equal('Thursday', mostProfitableDay(salesData));
-    })
 
     it('should return an empty string if there was no sale for a day', function(){
         var data =  mostProfitableDay = []

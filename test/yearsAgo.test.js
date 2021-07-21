@@ -1,3 +1,6 @@
+let assert = require("assert");
+let yearsAgo = require("../yearsAgo");
+
 describe('yearsAgo function,', function(){
     it('should return 45 which is the diffYears between the current year and 1976', function(){
         assert.equal(45, yearsAgo(1976));

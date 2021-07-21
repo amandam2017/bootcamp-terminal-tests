@@ -1,3 +1,6 @@
+let assert = require("assert");
+let isWeekday = require("../isWeekday");
+
 describe('this test isWeekday function,', function(){
     it('should return false if day is not a week day', function(){
         assert.equal(false, isWeekday('Saturday'));

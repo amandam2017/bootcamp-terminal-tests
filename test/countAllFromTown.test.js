@@ -1,3 +1,6 @@
+let assert = require("assert");
+let countAllFromTown = require("../countAllFromTown");
+
 describe('this test countAllFromTown function,', function(){
     it('should return 3, the total of the registration numbers from Stellies', function(){
         var fromStellies = countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CL');
